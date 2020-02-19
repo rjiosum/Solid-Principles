@@ -6,7 +6,7 @@ Some software design principles are:
 - YAGNI (You Aren't Gonna Need It)
 - SOLID
 
-###SOLID Principles
+### SOLID Principles
 > S - SRP - Single Responsibility Principle
 
 A class should have one and only one reason to change.
