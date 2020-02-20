@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\OpenClosed\Valid;
+namespace OpenClosed\Valid;
 
 interface PaymentInterface {
     public function pay();
