@@ -11,11 +11,13 @@ Some software design principles are:
 
 A class should have one and only one reason to change.
 
+
 > O - OCP - Open Closed Principle
 
 Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
 
 When you have a class or method you want to extend without modifying it, separate the extensible behaviour behind an interface, and then flip the dependencies - Uncle Bob.
+
 
 > L - LSP - Liskov Substitution Principle
 
@@ -33,11 +35,13 @@ A pre-condition is a condition that happens before we execute a functionality.
 
 A post-condition is a condition that happens after we execute a functionality.
 
+
 > I - ISP - Interface Segregation Principle
 
 No client should be forced to depend on method it does not use.
 
 Many client-specific interfaces are better than one general purpose interfaces.
+
 
 > D - DIP - Dependency Inversion Principle
 
