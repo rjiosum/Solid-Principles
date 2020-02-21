@@ -25,6 +25,14 @@ Derived classes must be substitutable for their base classes.
 
 This means that the overridden methods should have the same signature, throwing the same type of exceptions and returning the same type of data.
 
+Child pre-conditions cannot be greater than parent method pre-conditions.
+
+Child post-conditions cannot be lesser than parent method post-conditions.
+
+A pre-condition is a condition that happens before we execute a functionality.
+
+A post-condition is a condition that happens after we execute a functionality.
+
 > I - ISP - Interface Segregation Principle
 
 No client should be forced to depend on method it does not use.
